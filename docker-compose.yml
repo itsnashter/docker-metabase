@@ -12,4 +12,4 @@ services:
     environment: 
       MB_DB_FILE: ./metabase-data/metabase.db
     volumes:
-      - ${PWD}/metabase-data/mtdata:/metabase-data
+      - ${PWD}/local/metabase-data/mtdata:/metabase-data
